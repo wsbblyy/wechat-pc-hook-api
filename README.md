@@ -25,7 +25,7 @@ https://study.163.com/course/courseMain.htm?courseId=1006486010
 
 
 2019/5/24   
-不同版本的微信需要先找到call的偏移, 然后改下WechatDllCpp.cpp:178   
+不同版本的微信需要先找到发消息call的偏移, 然后改下WechatDllCpp.cpp:178   
 就可以适用当前版本的微信了      
 
 
