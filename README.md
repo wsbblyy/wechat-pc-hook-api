@@ -27,7 +27,7 @@ https://study.163.com/course/courseMain.htm?courseId=1006486010
 2019/8/7   
 今天七夕, anyway, 微信2.6.8.51 发消息call 偏移是 0x2EB4E0‬   
 把这个替换 WechatDllCpp.cpp:178 的地址就ok了   
-如果大家觉得有帮助请给个 ```star``` 谢谢 :)
+如果大家觉得有帮助请给个 ```★star``` 谢谢 :)
 
 2019/6/1   
 应大家要求我建了个qq群, 想要交流的话请加:767997534 群
