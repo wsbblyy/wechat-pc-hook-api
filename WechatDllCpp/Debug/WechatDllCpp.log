@@ -1,2 +1,19 @@
-﻿  WechatDllCpp.cpp
-  WechatDllCpp.vcxproj -> D:\DotNetWorkspace\WechatDllCpp\Debug\WechatDllCpp.dll
+﻿  dllmain.cpp
+  httpServer.cpp
+d:\dotnetworkspace\wechat-pc-hook-api\wechatdllcpp\httpserver.cpp(78): warning C4101: 'cp': unreferenced local variable
+d:\dotnetworkspace\wechat-pc-hook-api\wechatdllcpp\httpserver.cpp(77): warning C4101: 'i': unreferenced local variable
+  WechatDllCpp.cpp
+  Generating Code...
+  mongoose.c
+d:\dotnetworkspace\wechat-pc-hook-api\wechatdllcpp\mongoose.c(11325): warning C4267: '=': conversion from 'size_t' to 'uint16_t', possible loss of data
+d:\dotnetworkspace\wechat-pc-hook-api\wechatdllcpp\mongoose.c(11337): warning C4267: '=': conversion from 'size_t' to 'uint16_t', possible loss of data
+d:\dotnetworkspace\wechat-pc-hook-api\wechatdllcpp\mongoose.c(11338): warning C4267: '=': conversion from 'size_t' to 'uint16_t', possible loss of data
+d:\dotnetworkspace\wechat-pc-hook-api\wechatdllcpp\mongoose.c(11349): warning C4267: '=': conversion from 'size_t' to 'uint16_t', possible loss of data
+d:\dotnetworkspace\wechat-pc-hook-api\wechatdllcpp\mongoose.c(11353): warning C4267: '=': conversion from 'size_t' to 'uint16_t', possible loss of data
+d:\dotnetworkspace\wechat-pc-hook-api\wechatdllcpp\mongoose.c(11398): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+d:\dotnetworkspace\wechat-pc-hook-api\wechatdllcpp\mongoose.c(11437): warning C4267: '=': conversion from 'size_t' to 'uint16_t', possible loss of data
+d:\dotnetworkspace\wechat-pc-hook-api\wechatdllcpp\mongoose.c(11477): warning C4267: '=': conversion from 'size_t' to 'uint16_t', possible loss of data
+d:\dotnetworkspace\wechat-pc-hook-api\wechatdllcpp\mongoose.c(16858): warning C4273: 'rmdir': inconsistent dll linkage
+  d:\windows kits\10\include\10.0.17763.0\ucrt\direct.h(116): note: see previous definition of 'rmdir'
+     Creating library D:\DotNetWorkspace\wechat-pc-hook-api\Debug\WechatDllCpp.lib and object D:\DotNetWorkspace\wechat-pc-hook-api\Debug\WechatDllCpp.exp
+  WechatDllCpp.vcxproj -> D:\DotNetWorkspace\wechat-pc-hook-api\Debug\WechatDllCpp.dll

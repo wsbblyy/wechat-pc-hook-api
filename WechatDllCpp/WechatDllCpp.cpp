@@ -175,7 +175,7 @@ VOID SendTextMessage(wchar_t * wxid, wchar_t * message)
 	
 
 	//call地址
-	DWORD callAdd = getModuleAddress() + 0x2E3E20;
+	DWORD callAdd = getModuleAddress() + 0x2EB4E0;
 	__asm {
 		mov edx, asmWxid
 		mov eax, 0x0

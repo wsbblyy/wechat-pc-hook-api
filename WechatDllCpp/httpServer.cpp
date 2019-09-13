@@ -23,9 +23,9 @@ wchar_t * UTF8ToUnicode(const char* str)
 }
 
 static void send(struct mg_connection *nc, struct http_message *hm) {
-	wchar_t wxid[0x100], msg[0x100];
+	wchar_t wxid[0x100], msg[0x200];
 
-	char buf_wxid[0x100], buf_msg[0x100];
+	char buf_wxid[0x100], buf_msg[0x200];
 
 	/* Get form variables */
 	mg_get_http_var(&hm->body, "wxid", buf_wxid, sizeof(buf_wxid));
@@ -41,7 +41,7 @@ static void send(struct mg_connection *nc, struct http_message *hm) {
 
 	/* Compute the result and send it back as a JSON object */
 	//result = strtod(n1, NULL) + strtod(n2, NULL);
-	mg_printf_http_chunk(nc, "{ \"wxid\": %s, \"msg\": %s}", wxid, msg);
+	mg_printf_http_chunk(nc, "{ \"wxid\": %s, \"msg\": %s}", buf_wxid, buf_msg);
 	mg_send_http_chunk(nc, "", 0); /* Send empty chunk, the end of response */
 }
 
