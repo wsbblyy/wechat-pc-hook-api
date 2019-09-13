@@ -24,6 +24,9 @@ https://study.163.com/course/courseMain.htm?courseId=1006486010
 ### 767997534 qq群
 ### PS
 
+2019/9/13   
+中秋快乐, 感谢群友提醒, 修复一个http返回值bug, 之前返回值显示不完整, 现已修复   
+
 2019/8/7   
 今天七夕, anyway, 微信2.6.8.51 发消息call 偏移是 0x2EB4E0‬   
 把这个替换 WechatDllCpp.cpp:178 的地址就ok了   
